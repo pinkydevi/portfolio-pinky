@@ -1,5 +1,5 @@
 
-import avatarImg from "../../assets/7358602-removebg-preview.png";
+import avatarImg from "../../assets/Untitled design (2).png";
 import TextChange from "../TextChange";
 
 const Home = () => {
@@ -14,9 +14,12 @@ const Home = () => {
           I am Fullstack Developer. I specialize in building scalable web applications.
           I've worked on both startup projects and enterprise systems.Always excited to learn new technology and grow with the industry.
         </p>
-        <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-          Contact Me
-        </button>
+       <a href="https://drive.google.com/file/d/12SQTG_1GiJ_W1lcTWgK5smc1ekzIU5e3/view" download>
+  <button className="mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+    Get Resume
+  </button>
+</a>
+
       </div>
       <div>
         <img className="" src={avatarImg} alt="" />

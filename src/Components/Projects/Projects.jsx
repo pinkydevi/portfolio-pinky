@@ -2,6 +2,7 @@
 import ProjectCard from "./ProjectCard";
 import gadgetBanner from "../../assets/dapper-fenglisu-65e59e.netlify.app_.png";
 import onlineTutor from "../../assets/online-tutor-9a882.web.app_.png";
+import bid from "../../assets/bid7.png";
 
 
 
@@ -30,9 +31,13 @@ const Projects = () => {
         />
         <ProjectCard
           title="Bidding System Project"
-          main="A Netflix-style movie browser built with Next.js, including dynamic routing and movie info pulled from an API."
-          demo="https://your-netflix-demo-link.netlify.app/"
+          main="Bidding system project using Laravel involves creating a platform
+where users can place bids on items and compete to win them. Users
+can view items up for bid, place bids, and monitor the bidding process
+in real-time. "
+          demo="https://github.com/pinkydevi/biddingSystemProject"
           code="https://github.com/pinkydevi/biddingSystemProject.git"
+          banner={bid}
           
         />
       </div>
