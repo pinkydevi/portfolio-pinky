@@ -1,5 +1,5 @@
 
-import avatarImg from "../../assets/Untitled design (2).png";
+import avatarImg from "../../assets/pinky.jpg";
 import TextChange from "../TextChange";
 
 const Home = () => {
